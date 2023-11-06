@@ -1,0 +1,11 @@
+[package]
+name = "bletool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bluest = "0.6.5"
+tokio = { version = "1.20.1", features = ["macros", "rt-multi-thread", "time"] }
+futures-core = "0.3.28"
+futures-lite = { version = "1.13.0", default-features = false }
+clap = { version = "4.3.0", features = ["derive"] }
